@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieRental.Domain", "MovieRental.Domain\MovieRental.Domain.csproj", "{B4F47686-60EE-457E-BB83-D3548414F5B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieRental.Domain.Test", "MovieRental.Domain.Test\MovieRental.Domain.Test.csproj", "{5A5C2281-2182-4108-A946-9647843DBC94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{A18C7D05-7AA7-45D3-999B-A7C97815D02F}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\movie-rental-domain.jpg = Resources\movie-rental-domain.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4F47686-60EE-457E-BB83-D3548414F5B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F47686-60EE-457E-BB83-D3548414F5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F47686-60EE-457E-BB83-D3548414F5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F47686-60EE-457E-BB83-D3548414F5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5C2281-2182-4108-A946-9647843DBC94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5C2281-2182-4108-A946-9647843DBC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5C2281-2182-4108-A946-9647843DBC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5C2281-2182-4108-A946-9647843DBC94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EA531B0-3187-4507-A5E5-EC096B0722EB}
+	EndGlobalSection
+EndGlobal
